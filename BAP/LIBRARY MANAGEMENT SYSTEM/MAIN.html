@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Library Management System</title>
+    </head>
+    <body>
+        <h1 style="color: white; background-color:green; text-align: center;">Welcome to the Library Management System</h1>
+        <h2 style="text-align: center;">Add / Update / Delete / Search book(s)</h2>
+        <form method="POST" action = "{{ url_for('form_submit') }}">
+        <table style="margin-left: auto; margin-right: auto;">
+        <tr>
+            <td> <label>ID (0 to skip): </label> </td>
+            <td> <input type = "text" name = "idText" value = "{{ 1 }}"></input> </td>
+        </tr>
+        <tr>
+            <td> <label style = "text-align: center;">Title (Enter to skip):</label> </td>
+            <td> <input type="text" name = "titleText" value = "{{t}}"></input> </td>
+        </tr>
+        <tr>
+            <td> <label style = "text-align: center;">Author (Enter to skip):</label> </td>
+            <td> <input type="text" name = "authorText" value = "{{ a }}"></input> </td>
+        </tr>
+        <tr>
+            <td> <label style="text-align: center;">Year (0 to skip):</label> </td>
+            <td> <input type="text" name = "yearText" value = "{{y}}"></input> </td>
+        </tr>
+        <tr>
+        <td> <label style="text-align: center;">Search: </label> </td>
+        <td> <input type="text" name="searchText" value = "{{s}}"></input> </td>
+        </tr>
+        </table>
+        <br />
+        <br />
+        <div style="text-align: center;">
+            <input type="submit" name = "action_button" value = "Add a book" style= "background-color: lightgreen;">
+            <input type="submit" name = "action_button" value = "Update a book" style= "background-color: cyan;">
+            <input type="submit" name = "action_button" value = "Delete a book" style= "background-color:lightyellow;">
+            <input type="submit" name = "action_button" value = "Search book(s)" style="background-color: blue; color: white"></input>
+        </div>
+        <br />
+        <br />
+        <textarea name="booksText" style="display: block; margin-left: auto; margin-right: auto;" rows="15" cols= "50" readonly>{{b}}</textarea>
+        </form>
+    </body>
+</html>

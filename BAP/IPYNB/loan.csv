@@ -1,0 +1,16 @@
+Loan ID,Gender,Married,Education,,Income,Loan Amount,Loan Status
+LP001003,Male,Yes,Graduate,,4583,128,N
+LP001005,Male,Yes,Graduate,,3000,66,Y
+LP001006,Male,Yes,Not Graduate,,2583,120,Y
+LP001008,Male,No,Graduate,,6000,141,Y
+LP001011,Female,Yes,Graduate,,5417,267,Y
+LP001013,Female,Yes,Not Graduate,,2333,95,Y
+LP001014,Female,Yes,Graduate,,3036,158,N
+LP001018,Female,Yes,Graduate,,4006,168,Y
+LP001020,Female,Yes,Graduate,,12841,349,N
+LP001024,Female,Yes,Graduate,,3200,70,Y
+LP001027,Female,Yes,Graduate,,2500,109,Y
+LP001028,Male,Yes,Graduate,,3073,200,Y
+LP001029,Male,No,Graduate,,1853,114,N
+LP001030,Male,Yes,Graduate,,1299,17,Y
+LP001041,Male,Yes,Graduate,,2600,115,Y
